@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Rockwell;
+  background-image: url(https://images8.alphacoders.com/707/707491.jpg);
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+}
+
+.formulario {
+  width: 500px;
+  max-width: 100%;
+  margin: auto;
+  margin-top: 30px;
+  padding: 20px;
+  box-shadow: 0 0 20px 1px #010101;
+  position: relative;
+  background-image: linear-gradient(to bottom, #ba4513 15%, #27384c 15%);
+  border-radius: 20px 20px 20px 20px
+}
+
+h3 {
+  margin-top: 25px;
+  font-family: Cooper Black;
+}
+
+hr {
+  width: 100px;
+  margin-top: 5px;
+}
+
+#name {
+ background-color: #4a5e75;
+ width: 400px;
+ border-color: #ba4513;
+ border-radius: 10px 5px;
+ margin-top: 15px;
+}
+
+#email {
+ background-color: #4a5e75;
+ width: 400px;
+ border-color: #ba4513;
+ border-radius: 10px 5px;
+}
+
+#pass {
+ background-color: #4a5e75;
+ width: 402px;
+ border-color: #ba4513;
+ border-radius: 10px 5px;
+}
+
+#date {
+  background-color: #4a5e75;
+  border-color: #ba4513;
+  border-radius: 10px 5px;
+  text-align: center;
+}
+
+select {
+   background-color: #4a5e75;
+   Border-radius: 10px;
+   border-color: #ba4513;
+   text-align: center;
+   color: black;
+}
+
+input[type='file'] {
+    display: none;
+}
+
+#selecao-arquivo {
+  background-color: #4a5e75;
+  border-radius: 10px 5px;
+  border-color: #ba4513;
+  display: flex;
+  margin: 10px auto;
+  padding: 20px;
+  margin-top: -20px;
+  text-align: center;
+  width: 350px;
+}
+
+.Qualidades {
+    background-color: #4a5e75;
+    border-radius: 10px 5px;
+    width: 460px;
+    text-align: center;
+}
+
+#Pergunta {
+  background-color: #4a5e75;
+  border-radius: 10px 5px;
+  width: 460px;
+  text-align: center;
+  border-color: #ba4513;
+}
+
+::placeholder {
+  color: black;
+  padding: 10px;  
+}
+
+input[type="submit"] {
+  position: relative;
+  right: -150px;
+  border-color: ba4513;
+  border-radius: 10px;
+  width: 150px;
+  height: 40px;
+  background-color: #ba4513;
+  padding: 3px;
+  border: 1px solid #2b4459;
+  color: black;
+}
