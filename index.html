@@ -1,0 +1,59 @@
+<html lang="pt - BR">
+<head>
+    <title>Cadastro da Liga dos astronautas</title>
+  </head>
+<body>
+  <section>
+  <form action="/action_page.php" class="formulario">
+  <h3 align="center">Cadastro da Liga dos Astronautas</h3>
+  <hr>
+    <div>
+      <strong>Nome:</strong> <input type="Name" id="name">
+      <br>
+      <br>
+      <strong>Email:</strong> <input type="email" id="email" required>
+      <br>
+      <br>
+      <strong>Senha: </strong><input type="password" id="pass" name="password" required>
+    </div>
+ <br>
+    <div>
+      <strong>Data de nascimento:</strong> <input
+type="date" id="date">
+      <br>
+      <br>
+      <strong>Foto:</strong>
+      <label for='selecao-arquivo'</label>
+<input id='selecao-arquivo' type='file'>
+    </div>
+ <br>
+    <div>
+      <strong>Nacionalidade:</strong> <select name="select">
+          <option value="Russo">Russo</option>
+          <option value="Americano">Americano </option>
+          <option value="Brasileiro">Brasileiro</option>
+      </select>
+        <strong>- Genero:</strong> <strong>F</strong> <input type="radio" name="webmaster" value="Feminino">
+        <strong>- Genero:</strong> <strong>M</strong> <input type="radio" name="webmaster" value="Masculino">
+      </select>
+    </div>
+  <br>
+    <div class="Qualidades">
+      <strong>Suas principais qualidades:</strong>
+  <br>
+        <strong>Inteligência</strong> <input type="checkbox" name="opcoes" value="Inteligência"> |
+        <strong>Resiliência</strong> <input type="checkbox" name="opcoes" value="Resiliência">
+      | <strong>Preparo Físico</strong> <input type="checkbox" name="opcoes" value="Preparo Físico"> |
+        <strong>Educação</strong> <input type="checkbox" name="opcoes" value="Educação"> |
+    </div>
+  <br>
+    <div>
+      <textarea name="text" id="Pergunta" cols="30" rows="10" placeholder="Porque gostaria de ser um astronauta?"></textarea>
+    </div>
+  <br>
+    <div>
+      <input type="submit" value="Criar">
+    </div>
+  </section>
+</body>
+</html>
