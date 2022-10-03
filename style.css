@@ -117,3 +117,123 @@ input[type="submit"] {
   border: 1px solid #2b4459;
   color: black;
 }
+
+input[type="submit"]:hover {
+            background: #db561d;
+            color: black;
+            border-color: #d9845f;
+            border-radius: 10px;
+            box-shadow: 0 0 5px #db561d, 0 0 10px #db561d, 0 0 25px #db561d, 0 0 10px #db561d;
+        }
+
+
+#name:hover {
+            background: #47647d;
+            color: black;
+            border-color: #db561d;
+            border-radius: 10px 5px;
+            box-shadow: 0 0 1px #db561d, 0 0 1px #db561d, 0 0 2px #db561d, 0 0 1px #db561d;
+        }
+
+#email:hover {
+            background: #47647d;
+            color: black;
+            border-color: #db561d;
+            border-radius: 10px 5px;
+            box-shadow: 0 0 1px #db561d, 0 0 1px #db561d, 0 0 2px #db561d, 0 0 1px #db561d;
+        }
+
+#pass:hover {
+            background: #47647d;
+            color: black;
+            border-color: #db561d;
+            border-radius: 10px 5px;
+            box-shadow: 0 0 1px #db561d, 0 0 1px #db561d, 0 0 2px #db561d, 0 0 1px #db561d;
+        }
+
+#date:hover {
+            background: #47647d;
+            color: black;
+            border-color: #db561d;
+            border-radius: 10px 5px;
+            box-shadow: 0 0 1px #db561d, 0 0 1px #db561d, 0 0 2px #db561d, 0 0 1px #db561d;
+        }
+
+#selecao-arquivo:hover {
+            background: #47647d;
+            color: black;
+            border-color: #db561d;
+            border-radius: 10px 5px;
+            box-shadow: 0 0 1px #db561d, 0 0 1px #db561d, 0 0 2px #db561d, 0 0 1px #db561d;
+        }
+
+#select:hover {
+            background: #47647d;
+            color: black;
+            border-color: #db561d;
+            border-radius: 10px;
+            box-shadow: 0 0 1px #db561d, 0 0 1px #db561d, 0 0 2px #db561d, 0 0 1px #db561d;
+        }
+
+#Feminino:hover {
+            background: #47647d;
+            color: black;
+            border-color: #db561d;
+            border-radius: 10px;
+            box-shadow: 0 0 1px #db561d, 0 0 1px #db561d, 0 0 2px #db561d, 0 0 1px #db561d;
+        }
+
+#Masculino:hover {
+            background: #47647d;
+            color: black;
+            border-color: #db561d;
+            border-radius: 10px;
+            box-shadow: 0 0 1px #db561d, 0 0 1px #db561d, 0 0 2px #db561d, 0 0 1px #db561d;
+        }
+#Checkbox:hover {
+            background: #47647d;
+            color: black;
+            border-color: #db561d;
+            border-radius: 10px 5px;
+            box-shadow: 0 0 1px #db561d, 0 0 1px #db561d, 0 0 2px #db561d, 0 0 1px #db561d;
+        }
+
+#Inteligência:hover {
+            background: #47647d;
+            color: black;
+            border-color: #db561d;
+            border-radius: 10px 5px;
+            box-shadow: 0 0 1px #db561d, 0 0 1px #db561d, 0 0 2px #db561d, 0 0 1px #db561d;
+        }
+
+#Resiliencia:hover {
+            background: #47647d;
+            color: black;
+            border-color: #db561d;
+            border-radius: 10px 5px;
+            box-shadow: 0 0 1px #db561d, 0 0 1px #db561d, 0 0 2px #db561d, 0 0 1px #db561d;
+        }
+
+#Preparo:hover {
+            background: #47647d;
+            color: black;
+            border-color: #db561d;
+            border-radius: 10px 5px;
+            box-shadow: 0 0 1px #db561d, 0 0 1px #db561d, 0 0 2px #db561d, 0 0 1px #db561d;
+        }
+
+#Educacao:hover {
+            background: #47647d;
+            color: black;
+            border-color: #db561d;
+            border-radius: 10px 5px;
+            box-shadow: 0 0 1px #db561d, 0 0 1px #db561d, 0 0 2px #db561d, 0 0 1px #db561d;
+        }
+
+#Pergunta:hover {
+            background: #47647d;
+            color: black;
+            border-color: #db561d;
+            border-radius: 10px 5px;
+            box-shadow: 0 0 1px #db561d, 0 0 1px #db561d, 0 0 2px #db561d, 0 0 1px #db561d;
+        }
